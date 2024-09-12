@@ -1,9 +1,8 @@
-﻿namespace CodeReviews.Console.MathGame;
+﻿
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
-    }
-}
+using System.ComponentModel.DataAnnotations;
+using Codereviews.Console.MathGame;
+
+MathGameLogic mathGameLogic = new MathGameLogic();
+
+mathGameLogic.ShowMenu();
